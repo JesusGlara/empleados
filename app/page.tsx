@@ -1,6 +1,8 @@
 "use client"
 import  React, { useState } from 'react';
 
+
+
 // Definición de la clase Nodo
 class Nodo {
   public data: any;
@@ -69,7 +71,7 @@ const HomePage = () => {
     }
     
     // Mostrar una alerta con los valores de la lista enlazada
-    alert(valores);
+   console.log(valores)
   };
 
   return (
@@ -139,4 +141,4 @@ const HomePage = () => {
   );
 }
 
-export default HomePage;
+export default HomePage
